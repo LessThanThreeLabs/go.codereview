@@ -1,0 +1,9 @@
+This repository holds the Go code review tools.
+
+The codereview.py script itself remains in the main Go repository,
+at least for now, but to use the script's clpatch command, you need
+to install hgpatch, by doing
+
+	go get code.google.com/p/go.codereview/cmd/hgpatch
+
+To submit changes to this repository, see http://golang.org/doc/contribute.html.
